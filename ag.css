@@ -1,0 +1,18 @@
+*{
+    background-image: url(https://wallpapercave.com/wp/wp9728315.jpg);
+    background-size:auto;
+}
+p{
+    color: aliceblue;
+}
+h{
+    color: aliceblue;
+}
+button{
+    opacity: 55%;
+    background-color: rgba(0, 0, 0, 0.043);
+}
+.agl{
+    color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.086);
+}

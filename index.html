@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    #header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+}
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:#088178;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+    content:"";
+    width:30%;
+    height:2px;
+    background:#088178;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+
+}
+#hero{
+    background-image:url("https://cdn.wallpapersafari.com/93/79/h7tBDw.jpg");
+    
+    height:90vh;
+    width:100%;
+    background-size:cover;
+    background-position: top 2% right 0;
+    padding:0 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+}
+#her0 h4{
+    font-style:oblique;
+    padding-bottom:15px;
+}
+#hero h1{
+    font-style: oblique;
+    padding-bottom:15px;
+    color:#070707;
+    font-style: s;
+}
+#hero button{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHL4j3yFn0uBbuyiDeb4tu0NpuZFe_PgvdFJ4Cxx-n6g&usqp=CAU&ec=48665698");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding:14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    font-weight: 700;
+    font-size:15px;
+}
+
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <title>HELMET HUB</title>
+</head>
+
+<body>
+  <section id="header" >
+<a href="#"><img src="https://www.logoground.com/uploads6/dv6y2019372632019-06-174576093logo(1)-04.jpg" height="70" class="logo" alt=""></a>
+<div>
+  <ul id="navbar">
+  
+    <li><a class="active"href="indexx.html">HOME</a></li>
+    <li><a href="shope.html">SHOP</a></li>
+    <li><a href="profile.html">COMPANY PROFILE</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a href="cart.html"><i class="far fa-shopping-bag"></i></i></a></li>
+    
+
+  
+
+  </ul>
+</div>
+</section>
+<section id="hero">
+  <h4>GRAB THE OFFER SOON!!!!</h4>
+  <h1>Up to 15% Off</h1>
+  <h2>GEAR UP YOUR SKILLS WITH GEARS</h2>
+  
+  <p>You will be repelled from a doctor’s facility bed if you wear a helmet on your head!</p>
+  <a href="shop.html"></a> <button>Shop Now</button></a>
+
+</section>
+</body>
+</html>
